@@ -5,13 +5,13 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/tvType"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Types of public holidays in SG"
         android:textSize="30sp" />
 
     <ListView
-        android:id="@+id/lvType"
+        android:id="@+id/lvHoliday"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
